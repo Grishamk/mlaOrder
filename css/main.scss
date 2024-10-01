@@ -1,0 +1,17 @@
+//BASE
+@import "base/variables";
+@import "base/mixins";
+@import "base/reset";
+
+
+//COMPONENTES
+@import "components/buttons";
+@import "components/cards";
+
+//LAYOUTS
+@import "layouts/nav";
+@import "layouts/footer";
+@import "layouts/grid";
+
+//PAGES
+@import "pages/main-pages";
