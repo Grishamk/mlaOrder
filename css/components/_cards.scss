@@ -98,40 +98,13 @@
         }
     }
     @media(min-width: $breakpoint-tablet){
-        background-color: $colorTerciario;
         @include wH(300px, 450px);
         @include boxShadow();
-        color: $colorLetra2;
-        border-radius: 8px;
         
-        picture{
-            width: 100%;
-            @include flexRule(null,center,center);
-            padding: 15px 15px 8px;
-            
-
-            img{
-                width: 100%;
-                border-radius: 6px 6px 0 0;
-            }
-        }
-
         .noticia__contenido{
-            padding: 8px 15px;
-            @include flexRule(column);
             .titulo{
-                height: 100px;
                 @include flexRule(column);
-                h2{
-                    font-size: 1.6rem;
-                    margin-bottom: 16px;
-                    font-weight: 500;
-                    color: $colorLetra2;
-                }
-
                 .fecha{
-                    margin-bottom: 16px;
-                    font-size: 1.4rem;
                     justify-self: flex-end;
                 }
             }
@@ -139,44 +112,13 @@
     }
 
     @media(min-width: $breakpoint-desktop){
-        background-color: $colorTerciario;
         @include wH(300px, 450px);
         @include boxShadow();
-        color: $colorLetra2;
-        border-radius: 8px;
         transition: all 300ms ease;
         
         picture{
-            width: 100%;
-            @include flexRule(null,center,center);
-            padding: 15px 15px 8px;
-            
-
             img{
-                width: 100%;
                 height: 236px;
-                border-radius: 6px 6px 0 0;
-            }
-        }
-
-        .noticia__contenido{
-            padding: 8px 15px;
-            @include flexRule(column);
-            .titulo{
-                height: 100px;
-                @include flexRule(column);
-                h2{
-                    font-size: 1.6rem;
-                    margin-bottom: 16px;
-                    font-weight: 500;
-                    color: $colorLetra2;
-                }
-
-                .fecha{
-                    margin-bottom: 16px;
-                    font-size: 1.4rem;
-                    justify-self: flex-end;
-                }
             }
         }
 
@@ -185,5 +127,4 @@
             transition: all 300ms ease;
         }
     }
-
 }
