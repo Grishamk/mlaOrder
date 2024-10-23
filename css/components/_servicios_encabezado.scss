@@ -28,6 +28,13 @@
         font-size: 1.6rem;
     }
 
+    //ESTO SOLO FUNCIONA EN EL ENLACE DE CAPITAL HUMANO
+    .span{
+        margin-left: 8px;
+        text-decoration: none;
+        color: $colorCuaternario;
+    }
+
     @media(min-width: $breakpoint-tablet){
         picture{
 
